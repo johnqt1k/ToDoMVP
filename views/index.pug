@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to i dont knoowww
+
+  // Loop through the ids array and display its contents
+  each id in ids
+    p ID: #{id.id}, Description: #{id.description}
+
+  button "press me to create new to-do"
+  
